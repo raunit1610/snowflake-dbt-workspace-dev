@@ -1,0 +1,23 @@
+SNOWFLAKE_DBT_WORKSPACE:
+  target: dev
+  outputs:
+    dev:
+      account: ""
+      database: "ORDERDB"
+      password: ""
+      role: ACCOUNTADMIN
+      schema: PUBLIC
+      threads: 4
+      type: snowflake
+      user: ""
+      warehouse: COMPUTE_WH
+    prod:
+      account: ""
+      database: "ORDERDB"
+      password: ""
+      role: ACCOUNTADMIN
+      schema: RETAILS
+      threads: 4
+      type: snowflake
+      user: ""
+      warehouse: COMPUTE_WH
